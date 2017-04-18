@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Turtle Tracker
+qgisMinimumVersion=2.0
+description=Turtle track capture from aerial images
+version=0.1
+author=Dept Parks & Wildlife WA
+email=florian.mayer@dpaw.wa.gov.au
+
+about=Turtle tracks are an indicator of turtle nesting activity. Aerial capture allows for greater spatial coverage than in-person ground surveys at lower cost and risk. This module allows trained operators to capture turtle tracks from aerial imagery similar to ground surveys. The data produced is compatible with the WA Sea Turtle Database https://strandings.dpaw.wa.gov.au/
+
+tracker=https://github.com/parksandwildlife/qgis-turtle-tracker/issues
+repository=https://github.com/parksandwildlife/qgis-turtle-tracker
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=turtle, tracks
+
+homepage=https://strandings.dpaw.wa.gov.au/
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
